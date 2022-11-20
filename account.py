@@ -1,5 +1,5 @@
 class Account:
-    def __init__(self, name: str):
+    def __init__(self, name: str) -> None:
         '''
         Establishes a bank account with a name and a balance of 0
         :param name: The name of the newly created bank account
@@ -43,4 +43,4 @@ class Account:
         Retrieves the name of your account
         :return: Returns the name of the created said account
         '''
-        return self.get_name 
+        return self.__account_name
